@@ -1,20 +1,26 @@
-.. ml-petrophysics documentation master file, created by
-   sphinx-quickstart on Thu Apr  9 12:13:49 2020.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
+Simple machine learning concepts with a geological twist
+=====
 
-Welcome to ml-petrophysics's documentation!
-===========================================
+This site aims to teach the basics of exploratory data analysis and machine
+learning modeling using real examples of mineral exploration data sources.
+Geologists, geophysicists and geochemists may find the contents of this site
+useful to get familiar with the language and concepts of data science.
+Read the `tutorials`_. to get started, or go to the `installation`_ page to see
+the packages needed to do the tutorials yourself.
+
+.. _tutorials: tutorials/
+
+.. _tutorials: user/install
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+   :caption: User Guide
+
+   user/install
 
 
+.. toctree::
+   :maxdepth: 1
+   :caption: Tutorials
 
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+   tutorials/quickstart

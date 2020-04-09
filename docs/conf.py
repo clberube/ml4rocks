@@ -1,7 +1,7 @@
 # @Author: charles
 # @Date:   2020-04-09T12:13:49-04:00
 # @Last modified by:   charles
-# @Last modified time: 2020-04-09T12:51:28-04:00
+# @Last modified time: 2020-04-09T12:52:55-04:00
 
 
 # Configuration file for the Sphinx documentation builder.
@@ -39,7 +39,16 @@ master_doc = 'index'
 extensions = ['sphinx.ext.autodoc',
               'sphinx.ext.coverage',
               'sphinx.ext.napoleon',
+              'sphinx.ext.todo',
+              'nbsphinx',
+              'sphinx.ext.mathjax',
+              'IPython.sphinxext.ipython_console_highlighting',
               ]
+
+todo_include_todos = True
+
+nbsphinx_prompt_width = 0
+nbsphinx_timeout = 60
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']

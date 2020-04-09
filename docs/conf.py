@@ -1,7 +1,7 @@
 # @Author: charles
 # @Date:   2020-04-09T12:13:49-04:00
 # @Last modified by:   charles
-# @Last modified time: 2020-04-09T12:21:15-04:00
+# @Last modified time: 2020-04-09T12:51:28-04:00
 
 
 # Configuration file for the Sphinx documentation builder.
@@ -54,7 +54,7 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme = 'alabaster'
+html_theme = 'p-main_theme'
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,

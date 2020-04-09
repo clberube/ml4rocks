@@ -1,10 +1,10 @@
-Simple machine learning concepts with a geological twist
-=====
+Machine learning for rocks
+==========================
 
 This site aims to teach the basics of exploratory data analysis and machine
 learning modeling using real examples of mineral exploration data sources.
 Geologists, geophysicists and geochemists may find the contents of this site
-useful to get familiar with the language and concepts of data science.
+useful to get familiar with the concepts used in data science.
 Read the `tutorials`_. to get started, or go to the `installation`_ page to see
 the packages needed to do the tutorials yourself.
 
@@ -18,9 +18,22 @@ the packages needed to do the tutorials yourself.
 
    user/install
 
+.. toctree::
+ :maxdepth: 1
+ :caption: Basics
+
+ basics/quickstart
 
 .. toctree::
-   :maxdepth: 1
-   :caption: Tutorials
+  :maxdepth: 1
+  :caption: Unsupervised learning
 
-   tutorials/quickstart
+  unsupervised/dimension
+  unsupervised/clustering
+
+.. toctree::
+  :maxdepth: 1
+  :caption: Supervised learning
+
+  supervised/classification
+  supervised/regression

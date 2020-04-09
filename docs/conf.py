@@ -1,3 +1,9 @@
+# @Author: charles
+# @Date:   2020-04-09T12:13:49-04:00
+# @Last modified by:   charles
+# @Last modified time: 2020-04-09T12:21:15-04:00
+
+
 # Configuration file for the Sphinx documentation builder.
 #
 # This file only contains a selection of the most common options. For a full
@@ -26,12 +32,14 @@ release = '0.0.1'
 
 
 # -- General configuration ---------------------------------------------------
-
+master_doc = 'index'
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = [
-]
+extensions = ['sphinx.ext.autodoc',
+              'sphinx.ext.coverage',
+              'sphinx.ext.napoleon',
+              ]
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -40,7 +48,6 @@ templates_path = ['_templates']
 # directories to ignore when looking for source files.
 # This pattern also affects html_static_path and html_extra_path.
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
-
 
 # -- Options for HTML output -------------------------------------------------
 

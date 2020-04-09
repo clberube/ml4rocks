@@ -1,0 +1,5 @@
+numpy
+matplotlib
+nbsphinx
+ipython
+jupyter_client

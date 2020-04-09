@@ -1,6 +1,5 @@
 # ml4rocks
-Learn the basics of exploratory data analysis and machine learning modeling
-with applications to geology, geophysics, and geochemistry.
+Learn the basics of machine learning modeling with real applications to geology, geophysics, and geochemistry.
 
 ## Tutorials
 Find the tutorials in the [documentation](https://ml-petrophysics.readthedocs.io).

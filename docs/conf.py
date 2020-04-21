@@ -1,7 +1,7 @@
 # @Author: charles
 # @Date:   2020-04-09T12:13:49-04:00
 # @Last modified by:   charles
-# @Last modified time: 2020-04-09T15:47:39-04:00
+# @Last modified time: 2020-04-21T08:41:49-04:00
 
 
 # Configuration file for the Sphinx documentation builder.
@@ -47,8 +47,18 @@ extensions = ['sphinx.ext.autodoc',
 
 todo_include_todos = True
 
-nbsphinx_prompt_width = 0
 nbsphinx_timeout = 60
+
+nbsphinx_prolog = """
+.. raw:: html
+
+    <style>
+        .nbinput .prompt,
+        .nboutput .prompt {
+            display: none;
+        }
+    </style>
+"""
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
